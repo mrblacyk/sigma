@@ -18,7 +18,7 @@ detection:
     condition: selection1 and selection2
 falsepositives:
     - Installation of legitimate service
-level: medium
+level: low
 references:
     - https://attack.mitre.org/techniques/T1501/
     - https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1501/T1501.yaml
