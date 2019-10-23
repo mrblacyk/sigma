@@ -23,7 +23,7 @@ detection:
         CommandLine: 'nltest'
     selection5:
         CommandLine: 'domain_trusts'
-    condition: selection1 and selection2 and selection or selection4 and selection5
+    condition: selection1 and selection2 and selection3 or selection4 and selection5
 falsepositives:
     - Administrators script of some sort
 level: medium

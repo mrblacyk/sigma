@@ -1,5 +1,5 @@
 title: Systemd service reload or start
-description: Detects 
+description: Detects a reload or a start of a service
 status: experimental
 tags:
     - attack.persistence
